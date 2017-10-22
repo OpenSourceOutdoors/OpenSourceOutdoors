@@ -1,0 +1,12 @@
+{
+  "name": "OpenSourceOutdoors",
+  "version": "1.0.0",
+  "description": "One stop shop for all your open source outdoor experiences",
+  "main": "index.js",
+  "repository": "git@github.com:OpenSourceOutdoors/OpenSourceOutdoors.git",
+  "author": "Bryan Goldstein <brysgo@gmail.com>",
+  "license": "MIT",
+  "workspaces": [ 
+    "packages/*"
+  ]
+}
