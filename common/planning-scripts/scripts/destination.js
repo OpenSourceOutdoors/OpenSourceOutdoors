@@ -1,5 +1,6 @@
+const config = require("../lib/config");
 const googleMapsClient = require("@google/maps").createClient({
-  key: "AIzaSyDPoYu1d5L6kKUdC0VFqoKzgnR4kMBmZ4A",
+  key: config.googleMapsAPIKey,
   Promise
 });
 

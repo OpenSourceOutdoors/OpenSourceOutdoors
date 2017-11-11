@@ -9,6 +9,7 @@
   "dependencies": {
     "@google/maps": "^0.4.5",
     "prettier": "^1.8.2",
+    "rc": "^1.2.2",
     "yargs": "^10.0.3"
   }
 }
