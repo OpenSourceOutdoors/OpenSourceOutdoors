@@ -1,0 +1,14 @@
+{
+  "name": "planning-scripts",
+  "version": "0.0.1",
+  "description": "Tools for organizing OSO events",
+  "main": "index.js",
+  "repository": "git@github.com:OpenSourceOutdoors/OpenSourceOutdoors.git",
+  "author": "Bryan Goldstein <brysgo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "prettier": "^1.8.2",
+    "yargs": "^10.0.3"
+  }
+}
