@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@google/maps": "^0.4.5",
+    "json-fs-db": "^0.1.0",
     "prettier": "^1.8.2",
     "rc": "^1.2.2",
+    "to-camel-case": "^1.0.0",
     "yargs": "^10.0.3"
   }
 }
