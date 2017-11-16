@@ -184,6 +184,17 @@ os-locale@^2.0.0:
     lcid "^1.0.0"
     mem "^1.1.0"
 
+"oso-cli@file:./common/oso-cli":
+  version "0.0.1"
+  dependencies:
+    "@google/maps" "^0.4.5"
+    json-fs-db "^0.1.0"
+    prettier "^1.8.2"
+    rc "^1.2.2"
+    to-camel-case "^1.0.0"
+    yarg-scripts "file:../../Library/Caches/yarg-scripts"
+    yargs "^10.0.3"
+
 p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
@@ -329,9 +340,8 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yarg-scripts@^0.0.1:
+"yarg-scripts@file:../yarg-scripts":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/yarg-scripts/-/yarg-scripts-0.0.1.tgz#8eb072cec7fa15ed49314d7c5213b709b4536a9b"
   dependencies:
     yargs "^10.0.3"
 

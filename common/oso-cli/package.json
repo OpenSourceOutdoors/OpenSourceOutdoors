@@ -7,7 +7,7 @@
   "author": "Bryan Goldstein <brysgo@gmail.com>",
   "license": "MIT",
   "bin": {
-    "oso": "./bin/oso"
+    "oso": "./node_modules/yarg-scripts/index.js"
   },
   "dependencies": {
     "@google/maps": "^0.4.5",
@@ -15,6 +15,7 @@
     "prettier": "^1.8.2",
     "rc": "^1.2.2",
     "to-camel-case": "^1.0.0",
+    "yarg-scripts": "^0.0.1",
     "yargs": "^10.0.3"
   }
 }

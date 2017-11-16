@@ -5,9 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:OpenSourceOutdoors/OpenSourceOutdoors.git",
   "author": "Bryan Goldstein <brysgo@gmail.com>",
-  "license": "MIT",
-  "workspaces": [ 
+  "private": true,
+  "workspaces": [
     "chapters/*",
     "commont/*"
-  ]
+  ],
+  "dependencies": {
+    "oso-cli": "file:./common/oso-cli/"
+  }
 }
